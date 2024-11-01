@@ -36,7 +36,7 @@ Configure::Configure(vbit::Debug *debug, int argc, char** argv) :
     _pageDir = "./pages"; // a relative path as a sensible default
 #endif
     // This is where the default header template is defined.
-    _headerTemplate = "VBIT2    %%# %%a %d %%b" "\x03" "%H:%M:%S";
+    _headerTemplate = "InterTEXT %%# %%a/%d/%%b" "\x03" "%H:%M:%S";
     
     // the default command interface port
     _commandPort = 5570;
